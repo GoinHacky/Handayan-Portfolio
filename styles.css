@@ -138,8 +138,8 @@ a:hover {
 }
 
 .btn {
-  border: 1px solid transparent;
-  background: linear-gradient(120deg, #860038 0%, #002b60 58%, #fdbb30 100%);
+  border: 1px solid var(--accent);
+  background: var(--accent);
   color: #fff;
   border-radius: 999px;
   padding: 0.75rem 1.2rem;
@@ -148,12 +148,13 @@ a:hover {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  transition: transform 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
 }
 
 .btn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 10px 22px rgba(134, 0, 56, 0.42);
+  background: var(--accent-2);
+  border-color: var(--accent-2);
   color: #fff;
 }
 
