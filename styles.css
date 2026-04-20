@@ -183,7 +183,7 @@ a:hover {
 .btn-ghost:hover {
   box-shadow: none;
   border-color: var(--accent-2);
-  color: var(--accent-2);
+  color: #fff;
 }
 
 .hero {
